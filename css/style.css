@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+
+.score-panel .section {
+  padding: 10px;
+}
+
+.gameOver {
+  display: none;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.gameOver .playAgain {
+  background-color: #4caf50;
+  color: #ffffff;
+  border-color: #4caf50;
+  width: 120px;
+  height: 48px;
+  font-size: 15px;
+  margin: 20px;
+}
