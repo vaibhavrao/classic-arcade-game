@@ -10,6 +10,8 @@
 
 The objective of the game is for the player (who starts at the bottom row) to reach to the river with at least 1 remaining life and score as many points as possible.
 
+## Rules
+
 During this journey, the player may collide into either enemies (bugs) or trophies (gems or other shapes like heart, key or star).
 
 Collision with enemies (bugs) decrements the number of remaining lives for the player.
@@ -23,7 +25,7 @@ Blue Gem - 100 points
 Green Gem - 200 points
 Orange Gem - 300 points
 
-Collisiong with any of the other trophies (like Heart, Key or Star) increases the number of lives by 1.
+Collision with any of the other trophies (like Heart, Key or Star) increases the number of lives by 1.
 
 ### How to play
 
