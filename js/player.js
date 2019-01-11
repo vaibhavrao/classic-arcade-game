@@ -20,6 +20,9 @@ class Player {
       if (this.y === enemy.y && ((enemy.x + enemy.stepSize/2 > this.x) && (enemy.x < this.x + stepSizeX/2))) {
         // collision detected - reduce num of lives
         this.numLives--;
+        if (this.score > 0) {
+          this.score -= 100;
+        }
         this.updateScore();
         console.log('collision detected', this.numLives);
         if (this.numLives) {

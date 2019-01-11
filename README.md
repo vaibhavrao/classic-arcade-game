@@ -14,7 +14,7 @@ The objective of the game is for the player (who starts at the bottom row) to re
 
 During this journey, the player may collide into either enemies (bugs) or trophies (gems or other shapes like heart, key or star).
 
-Collision with enemies (bugs) decrements the number of remaining lives for the player.
+Collision with enemies (bugs) decrements the number of remaining lives for the player by 1 and also reduces the score by 100.
 
 Collision with Trophies either leads to increase in points or life boost (increase in number of remaining lives).
 
