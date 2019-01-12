@@ -17,8 +17,9 @@ class Player {
   update() {
     // check if player collided with an enemy
     for (let enemy of allEnemies) {
-      if (this.y === enemy.y && ((enemy.x + enemy.stepSize/2 > this.x) && (enemy.x < this.x + stepSizeX/2))) {
+      if (this.y === enemy.y && ((enemy.x + (enemy.stepSize * 3/4) > this.x) && (enemy.x < this.x + (stepSizeX * 3/4)))) {
         // collision detected - reduce num of lives
+        alert('collision');
         this.numLives--;
         if (this.score > 0) {
           this.score -= 100;

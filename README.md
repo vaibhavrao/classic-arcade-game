@@ -6,11 +6,11 @@
 
 ## Instructions
 
-## Objective of the game
+### Objective of the game
 
 The objective of the game is for the player (who starts at the bottom row) to reach to the river with at least 1 remaining life and score as many points as possible.
 
-## Rules
+### Rules
 
 During this journey, the player may collide into either enemies (bugs) or trophies (gems or other shapes like heart, key or star).
 
@@ -35,3 +35,13 @@ The game ends when 1 of the below conditions is met:
 
 1. The player reaches the river
 2. The player has 0 remaining lives
+
+Sometimes, its easy to clear all rows and complete the game, but the real challenge lies in sticking around and scoring more points before crossing over.
+
+### Instructions to download and run the game
+
+If you want to download the game, you can clone the repo using Git or checkout with SVN using the web URL: https://github.com/vaibhavrao/classic-arcade-game.git.
+
+To run the game after cloning, simply open the following file in a web browser: classic-arcade-game/index.html
+
+If you don't want to download the game, but simply play online, here is the link to the hosted version of the game: https://vaibhavrao.github.io/classic-arcade-game/
