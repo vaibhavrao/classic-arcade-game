@@ -75,14 +75,11 @@ populateTrophies();
 const player = new Player();
 
 // Instantiate Enemies
-const allEnemies = [];
-const bug1 = new Enemy(0, 0, randomSpeed());
-const bug2 = new Enemy(-(stepSizeX * 2), stepSizeY, randomSpeed());
-const bug3 = new Enemy(-(stepSizeX * 3), (stepSizeY * 2), randomSpeed());
-
-allEnemies.push(bug1);
-allEnemies.push(bug2);
-allEnemies.push(bug3);
+const allEnemies = [
+  new Enemy(0, 0, randomSpeed()),
+  new Enemy(-(stepSizeX * 2), stepSizeY, randomSpeed()),
+  new Enemy(-(stepSizeX * 3), (stepSizeY * 2), randomSpeed()),
+];
 
 // Key press listener - triggers player.handleInput to move player
 document.addEventListener('keyup', function(e) {
