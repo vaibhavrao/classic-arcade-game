@@ -85,24 +85,16 @@ class Player {
   handleInput(direction) {
     switch (direction) {
       case 'up':
-        if (this.y > stepSizeY) {
-          this.y -= stepSizeY;
-        }
+        this.y = this.y > stepSizeY ? this.y - stepSizeY : this.y;
         break;
       case 'down':
-        if (this.y < stepSizeY * 4) {
-          this.y += stepSizeY;
-        }
+        this.y = (this.y < (stepSizeY * 4)) ? this.y + stepSizeY : this.y;
         break;
       case 'left':
-        if (this.x > 0) {
-          this.x -= stepSizeX;
-        }
+        this.x = this.x > 0 ? this.x - stepSizeX : this.x;
         break;
       case 'right':
-        if (this.x < stepSizeX * 5) {
-          this.x += stepSizeX;
-        }
+        this.x = (this.x < stepSizeX * 5) ? this.x + stepSizeX : this.x;
         break;
     }
   }
